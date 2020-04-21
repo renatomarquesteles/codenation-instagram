@@ -41,10 +41,12 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 7px;
+  cursor: pointer;
 }
 
 .header__directs {
   font-size: 22px;
+  cursor: pointer;
 }
 
 .stories {
@@ -120,6 +122,10 @@ body {
   align-items: center;
 }
 
+.post__header i {
+  cursor: pointer;
+}
+
 .post__author {
   display: flex;
   align-items: center;
@@ -153,6 +159,7 @@ body {
   font-weight: bold;
   color: #262626;
   margin-left: 12px;
+  cursor: pointer;
 }
 
 .post__actions {
@@ -166,6 +173,7 @@ body {
 
 .post__actions i {
   padding: 8px;
+  cursor: pointer;
 }
 
 .post__actions i:first-child {
@@ -187,6 +195,7 @@ body {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .post__likes span {
@@ -194,12 +203,21 @@ body {
   font-size: 14px;
 }
 
+.post__likes span strong {
+  cursor: pointer;
+}
+
 .post__info {
   padding: 0 16px;
 }
 
+.post__info p strong {
+  cursor: pointer;
+}
+
 .hashtag {
   color: #00376b;
+  cursor: pointer;
 }
 
 .post__time {
