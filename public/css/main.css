@@ -95,3 +95,114 @@ body {
 .stories__user--new span {
   color: #262626;
 }
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post__header {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__author {
+  display: flex;
+  align-items: center;
+}
+
+.post__author a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: linear-gradient(#999, #999);
+  background-origin: border-box;
+  background-clip: border-box;
+  border: solid 1px transparent;
+}
+
+.post__author a img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.post__author--new-story a {
+  border: solid 2px transparent;
+  background-image: linear-gradient(220deg, #c52e92, #fa9f4e 100%);
+}
+
+.post__author span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+  margin-left: 12px;
+}
+
+.post__actions {
+  height: 50px;
+  font-size: 24px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__actions i {
+  padding: 8px;
+}
+
+.post__actions i:first-child {
+  padding-left: 0;
+}
+
+.post__actions i:last-child {
+  padding-right: 0;
+}
+
+.post__likes {
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.post__likes img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.post__likes span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.post__info {
+  padding: 0 16px;
+}
+
+.hashtag {
+  color: #00376b;
+}
+
+.post__time {
+  font-size: 10px;
+  color: #8e8e8e;
+}
